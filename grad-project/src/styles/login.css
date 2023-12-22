@@ -1,0 +1,80 @@
+::selection {
+  background-color: #000;
+}
+:root {
+  background-color: #e0e0e0;
+}
+
+.login-container {
+  background-color: #ffffff;
+  padding: 50px;
+  display: grid;
+  grid-gap: 10px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #a5001a;
+  width: 500px;
+  margin-inline: auto;
+  margin-block: 40px;
+}
+
+.login-container > h3 {
+  color: #a5001a;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.login-container > input:not([type="checkbox"]) {
+  min-height: 40px;
+  padding: 5px;
+  border-radius: 5px;
+  outline-color: #a5001a;
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #eee;
+}
+
+.login-container > .forgot-pass {
+  font-size: 17px;
+  font-weight: bold;
+  margin-right: auto;
+  margin-top: -7px;
+  color: #a5001a;
+}
+.login-container > .forgot-pass:hover {
+  color: #cc0044;
+}
+
+.login-container > button {
+  /* background-color: #ad2831; */
+  background-color: #a5001a;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  width: 350px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.login-container > button:hover {
+  background-color: #cc0044;
+  /* color: #00b6b3; */
+}
+
+.login-container .to-signup {
+  font-size: 17px;
+  margin: auto;
+  color: #1f1f1f;
+}
+.login-container .to-signup a {
+  font-weight: bold;
+  margin-right: auto;
+  color: #a5001a;
+  margin-right: 5px;
+}
+.login-container .to-signup a:hover {
+  color: #cc0044;
+}

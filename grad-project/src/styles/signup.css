@@ -1,0 +1,69 @@
+:root {
+  --main-color: #a5001a;
+}
+
+::selection {
+  background-color: #a0a0a0;
+}
+
+.signup-container {
+  background-color: #ffffff;
+  padding: 50px;
+  display: grid;
+  grid-gap: 10px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+  width: 600px;
+  margin: auto;
+}
+
+.signup-container > h3 {
+  color: var(--main-color);
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.signup-container > input:not([type="checkbox"]) {
+  border: 2px solid #e9e9e9;
+  min-height: 40px;
+  padding: 5px;
+  border-radius: 5px;
+  outline-color: var(--main-color);
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: var(--main-color);
+  background-color: #eee;
+}
+
+.signup-container > button {
+  background-color: var(--main-color);
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  width: 350px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-inline: auto;
+}
+.signup-container button:hover {
+  background-color: #cc0044;
+}
+
+.signup-container .to-signup {
+  font-size: 17px;
+  margin: auto;
+  color: #1f1f1f;
+}
+.signup-container .to-signup a {
+  font-weight: bold;
+  margin-right: auto;
+  color: var(--main-color);
+  margin-right: 5px;
+}
+.signup-container .to-signup a:hover {
+  color: #cc0044;
+}

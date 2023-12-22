@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page-container {
+  padding-inline: 120px;
+}
+
+.bg-main {
+  background-color: #a5001a;
+}
+.bg-sec {
+  background-color: #7cadc2;
+}
+.border-color {
+  border-color: #7cadc2;
+}
+.border-sec-color {
+  border-color: #a5001a;
+}
+.text-main {
+  color: #a5001a;
+}
+.text-sec {
+  color: #7cadc2;
+}
+.min-w-100 {
+  min-width: 100px;
+}
+.outline-main {
+  outline-color: #a5001a;
+}
+.border-l-1 {
+  border-left-width: 1px;
+}
+
+.bg-nav {
+  /* background-color: #ef233bd5; */
+  /* background-color: #d00000; */
+  /* background-color: #ff595e; */
+
+  /* background-color: #ad2831; */
+  background-color: #7cadc2;
+
+  /* background-color: #b80f00; */
+  /* background-color: #ef233c; */
+  /* background-color: #8a0303; */
+  /* background-color: #d61355; */
+  /* background-color: #ac0404; */
+  /* background-color: #d70505; */
+  /* background-color: #b22222; */
+  /* background-color: #820000; */
+  /* background-color: #cd1818; */
+  /* background-color: #ff004a; */
+  /* background-color: #b70404; */
+  /* background-color: #cc0044; */
+  /* background-color: #a70013; */
+}
+
+.bg-img {
+  background-image: url("../media/blood-ge078322d3_1280.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
